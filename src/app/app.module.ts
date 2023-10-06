@@ -9,8 +9,9 @@ import { AppComponent } from './app.component';
 
 
 
+
 @NgModule({
-  declarations: [AppComponent, routingComponents,],
+  declarations: [AppComponent, routingComponents],
 
   imports: [BrowserModule, AppRoutingModule],
 

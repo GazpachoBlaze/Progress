@@ -6,6 +6,7 @@ import { PricepanelComponent } from '../components/pricepanel/pricepanel.compone
 import { BootstrapComponent } from '../components/bootstrap/bootstrap.component';
 import { GridSystemComponent } from '../components/grid-system/grid-system.component';
 import { FormComponent } from '../components/form/form.component';
+import { CandyComponent } from '../components/candy/candy.component';
 
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'bootstrap', component: BootstrapComponent },
   {path: 'gridsystem', component: GridSystemComponent},
   {path: 'form', component: FormComponent},
+  {path: 'candy', component: CandyComponent},
 ];
 
 @NgModule({
@@ -23,4 +25,4 @@ const routes: Routes = [
 })
 export class AppRoutingModule {}
 
-export const routingComponents = [HomeComponent, PricepanelComponent, BootstrapComponent, GridSystemComponent, FormComponent];
+export const routingComponents = [HomeComponent, PricepanelComponent, BootstrapComponent, GridSystemComponent, FormComponent, CandyComponent];
