@@ -20,6 +20,10 @@ body {
     line-height: 2;
 }
 
+.content {
+    margin-top: 100px;
+}
+
 #mainNavbar .nav-link {
     color: white;
 }
@@ -39,6 +43,11 @@ body {
 #headingGroup h1 {
     font-weight: 100;
     font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: 500ms;
 }
 
 @media (max-width: 1200px) {
