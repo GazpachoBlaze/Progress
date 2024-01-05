@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule, routingComponents } from './routing/app.routing.module';
 
 import { AppComponent } from './app.component';
-import { GuessingComponent } from './components/guessing/guessing.component';
+
 
 
 
@@ -12,7 +12,7 @@ import { GuessingComponent } from './components/guessing/guessing.component';
 
 
 @NgModule({
-  declarations: [AppComponent, routingComponents, GuessingComponent],
+  declarations: [AppComponent, routingComponents, ],
 
   imports: [BrowserModule, AppRoutingModule],
 
